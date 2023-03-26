@@ -1,58 +1,62 @@
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-<link rel="icon" href="img/data form icon.png" type="img/x-icon">
-<title>Data form</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/data form icon.png" type="img/x-icon">
+    <title>Data form</title>
 </head>
 <body>
-<h1>Please kindly fill the form below:</h1>
+    <h1>Please kindly fill the form below:</h1>
 
-<form action="https://httpbin.org/get" method="get">
-    <!--<fieldset>
-        <legend><strong id="info">Personal info</strong></legend> -->
-    <div class="name">
-        <p>
-            <label for="Name"></label>
-            <input type="text" name="Name" id="Name" placeholder="Full name" autocomplete="on" required autofocus>
-        </p>
-    </div>
+    <form action="https://httpbin.org/get" method="get">
+        <!--<fieldset>
+            <legend><strong id="info">Personal info</strong></legend> -->
+        <div class="name">
+            <p>
+                <label for="Name"></label>
+                <input type="text" name="Name" id="Name" placeholder="Full name" autocomplete="on" required autofocus>
+            </p>
+        </div>
 
-    <div class="email">
-        <p>
-            <label for="email"></label>
-            <input type="text" name="email" id="email" placeholder="Email address" autocomplete="on" required autofocus>
-        </p>
-    </div>
+        <div class="email">
+            <p>
+                <label for="email"></label>
+                <input type="text" name="email" id="email" placeholder="Email address" autocomplete="on" required autofocus>
+            </p>
+        </div>
 
-    <div class="phone">
-        <p>
-            <label for="phone number"></label>
-            <input type="tel" name="tel" id="tel" placeholder="Phone" pattern="[0-9]{4}[0-9]{3}[0-9]{4}" required autofocus>
-        </p>
-    </div>
+        <div class="phone">
+            <p>
+                <label for="phone number"></label>
+                <input type="tel" name="tel" id="tel" placeholder="Phone" pattern="[0-9]{4}[0-9]{3}[0-9]{4}" required autofocus>
+            </p>
+        </div>
 
-    <div class="gender">
-        <p>
-            <label for="gender"></label>
-            <input type="text" name="gender" id="gender" placeholder="Gender" list="gender-list">
-            <datalist id="gender-list">
-                <option value="Male">
-                <option value="Female">
-            </datalist>
-        </p>
-    </div>
+        <div class="gender">
+            <p>
+                <label for="gender"></label>
+                <input type="text" name="gender" id="gender" placeholder="Gender" list="gender-list">
+                <datalist id="gender-list">
+                    <option value="Male">
+                    <option value="Female">
+                </datalist>
+            </p>
+        </div>
 
-    <div class="password">
-        <p>
-            <label for="password"></label>
-            <input type="password" name="password" id="password" placeholder="password" required autofocus>
-        </p>
-    </div>
-    <!--</fieldset>-->
-    <br>
+        <div class="password">
+            <p>
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="password" required autofocus>
+            </p>
+        </div>
+        <!--</fieldset>-->
+        <br>
 
-    <button type="submit">Submit</button>
-</form>
+            <button type="submit">Submit</button>
+        
+    </form>
 </body>
 </html>
