@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(212, 208, 208);
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0.5rem;
+    height: 60vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+h1{
+    color: gold;
+    background-color: black;
+    padding: 0.7%;
+    width: 500px;
+    font-size: 205%;
+    
+
+}
+
+.name{
+    padding: 2px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 180px;
+}
+
+.email{
+    padding: 2px;
+    height: 40px;
+    width: 180px;
+}
+
+.phone{
+    padding: 2px;
+    height: 40px;
+    width: 180px;
+}
+
+.gender{
+    padding: 2px;
+    height: 40px;
+    width: 180px;
+}
+
+.password{
+    padding: 2px;
+    height: 40px;
+    width: 180px;
+}
+
+button{
+    color: gold;
+    background-color: black;
+    text-align: center;
+    width: 150px;
+    cursor:pointer;
+    box-sizing: border-box;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: 120%;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+button:hover{
+    color: red;
+}
