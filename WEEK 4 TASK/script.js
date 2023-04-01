@@ -1,3 +1,7 @@
+function validateform(){
+    alert('success');
+}
+
 
 const form = document.getElementById('form');
 const username = document.getElementById('username');
@@ -54,3 +58,4 @@ function isEmail(email) {
     email
   );
 }
+
