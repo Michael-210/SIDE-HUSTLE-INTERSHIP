@@ -1,0 +1,70 @@
+body{
+    background-color: burlywood;
+}
+
+h1{
+    background-color: darkred;
+    border-radius: 10vh;
+    width: 50%;
+    justify-content: center;
+    border: 1px;
+    padding: 1%;
+    text-align: center;
+}
+
+.table{
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    width: 70%;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 12px 5px rgba();
+    text-align: center;
+    background: #faf8f8;
+}
+
+th{
+    padding: 5vh;
+    background-color:dimgrey;
+    height: 2vh;
+    width: 70vh;
+    border-radius: 12px 12px 0 0;
+    text-transform: uppercase;
+    font-size:x-large;
+}
+
+tr, td{
+    padding: 5px 5px 2%;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.days{
+    padding: 1%;
+    background: #faf8f8;
+    border-radius: 12px 12px 0 0;
+    background-color: darkgrey;
+    z-index: 2;
+    top: 50%;
+    width: 30%;
+}
+
+dt{
+    left: 50%;
+    right: 80%;
+}
+
+button{
+    background-color: darkred;
+    color: gold;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    font-size: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+
+button:hover{
+    color: red;
+}
